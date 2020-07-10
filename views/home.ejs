@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<htm lang="ar">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+            }
+
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+            }
+            .home {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -70%);
+                width: 60vw;
+                padding: 20px;
+                text-align: center;
+                border: 1px solid rgb(202, 156, 156);
+                border-radius: 7px;
+                box-shadow: 2px 2px rgb(189, 178, 178);
+                background-color: rgb(202, 156, 156);
+            }
+
+            .home div {
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="home">
+            <h1>Keep your secrets here</h1>
+            <div>
+                <a class="btn btn-dark" href="/register">Register</a>
+                <a class="btn btn-light" href="/login">Login</a>
+            </div>
+        </div>
+    </body>
+
+    </html>
